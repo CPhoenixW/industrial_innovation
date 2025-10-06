@@ -180,7 +180,13 @@ class MainController:
     def process_keyword_detection(self):
         """当检测到关键词时的处理流程"""
         logger.info("开始拍照录音...")
-        
+        # 播放提示音
+        pygame.mixer.init()
+        pygame.mixer.music.load("/audio/answer.mp3")
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            time.sleep(0.1)
+
         img1_path, img2_path = self.sensor.capture_images()
         
         audio_path = self.sensor.record_audio()
