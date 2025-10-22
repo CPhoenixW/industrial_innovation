@@ -10,6 +10,7 @@ server/image/
 server/weights/
 others/
 dataset/
+raspberryPi/audio/
 
 # Python
 __pycache__/
