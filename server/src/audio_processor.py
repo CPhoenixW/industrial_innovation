@@ -17,9 +17,9 @@ import _thread as thread
 logger = logging.getLogger("Server")
 
 # 讯飞开放平台配置
-APPID = "1afbccad"
-API_KEY = "e22e826af89befd6431fb57c010b50c2"
-API_SECRET = "N2UyMTcxMDUxNzI5MDczY2Q0YTYxODgy"
+APPID = ""
+API_KEY = ""
+API_SECRET = ""
 
 STATUS_FIRST_FRAME = 0
 STATUS_CONTINUE_FRAME = 1
