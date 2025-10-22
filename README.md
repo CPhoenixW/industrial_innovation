@@ -109,7 +109,7 @@ python main.py
 
 - 软件开发：phoenixW
 - 机械臂控制：三弦乐师
-- 机械结构：wyh
+- 机械结构：oort
 
 ## 许可证
 
