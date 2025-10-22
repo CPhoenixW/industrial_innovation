@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aca4710-d15d-4b12-93bb-58a2bed17673" name="更改" comment="server code">
-      <change beforePath="$PROJECT_DIR$/audio_vosk.py" beforeDir="false" />
-    </list>
+    <list default="true" id="4aca4710-d15d-4b12-93bb-58a2bed17673" name="更改" comment="server code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +265,7 @@
       <workItem from="1761026199536" duration="3661000" />
       <workItem from="1761039130985" duration="1350000" />
       <workItem from="1761042797609" duration="1277000" />
-      <workItem from="1761144640778" duration="2880000" />
+      <workItem from="1761144640778" duration="3398000" />
     </task>
     <task id="LOCAL-00001" summary="audio">
       <option name="closed" value="true" />
