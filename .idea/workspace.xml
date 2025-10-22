@@ -5,145 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aca4710-d15d-4b12-93bb-58a2bed17673" name="更改" comment="server code">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arm_pose1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arm_pose2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/am/final.mdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/conf/mfcc.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/conf/model.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/Gr.fst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/HCLr.fst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/disambig_tid.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/phones/word_boundary.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.dubm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.ie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/global_cmvn.stats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/online_cmvn.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/splice.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/audio_20250924_161544.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/image1_20250924_161544.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/image2_20250924_161544.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/audio_20250924_161711.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/image1_20250924_161711.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/image2_20250924_161711.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/audio_20250924_161757.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/image1_20250924_161757.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/image2_20250924_161757.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/audio_20250924_162038.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/image1_20250924_162038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/image2_20250924_162038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/audio_20250924_162109.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/image1_20250924_162109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/image2_20250924_162109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/audio_20250924_162212.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/image1_20250924_162212.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/image2_20250924_162212.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/audio_20250924_162230.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/image1_20250924_162230.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/image2_20250924_162230.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/audio_20250924_162300.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/image1_20250924_162300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/image2_20250924_162300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/audio_20250924_162642.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/image1_20250924_162642.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/image2_20250924_162642.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/audio_20250924_162727.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/image1_20250924_162727.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/image2_20250924_162727.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/audio_20250924_163236.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/audio_20250924_163236.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/image1_20250924_163236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/image2_20250924_163236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/audio_20250924_163453.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/audio_20250924_163453.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/image1_20250924_163453.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/image2_20250924_163453.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/recognition_20250924_163453.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/audio_20250924_163535.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/audio_20250924_163535.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/image1_20250924_163535.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/image2_20250924_163535.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/recognition_20250924_163535.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/audio_20251003_074547.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/audio_20251003_074547.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/image1_20251003_074547.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/image2_20251003_074547.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/recognition_20251003_074547.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/audio_20251006_214522.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/audio_20251006_214522.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/image1_20251006_214522.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/image2_20251006_214522.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/audio_20251006_214736.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/audio_20251006_214736.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/image1_20251006_214736.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/image2_20251006_214736.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/recognition_20251006_214736.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/audio_20251006_215031.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/audio_20251006_215031.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/image1_20251006_215031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/image2_20251006_215031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/recognition_20251006_215031.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/audio_20251006_221411.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/audio_20251006_221411.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/image1_20251006_221411.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/image2_20251006_221411.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/recognition_20251006_221411.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/audio_20251006_225142.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/audio_20251006_225142.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/image1_20251006_225142.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/image2_20251006_225142.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/recognition_20251006_225142.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/audio_20251006_230514.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/audio_20251006_230514.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/image1_20251006_230514.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/image2_20251006_230514.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/recognition_20251006_230514.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/audio_20251006_231344.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/audio_20251006_231344.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/image1_20251006_231344.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/image2_20251006_231344.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/recognition_20251006_231344.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/audio_20251006_231539.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/audio_20251006_231539.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/image1_20251006_231539.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/image2_20251006_231539.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/recognition_20251006_231539.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/audio_20251006_231707.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/audio_20251006_231707.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/image1_20251006_231707.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/image2_20251006_231707.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/recognition_20251006_231707.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/audio_20251006_232204.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/audio_20251006_232204.wav_processed.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/image1_20251006_232204.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/image2_20251006_232204.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/recognition_20251006_232204.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sft_0.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xunfeiAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大模型中文语音识别.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/姿态解算演示程序.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工作流.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/录音.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audio_vosk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raspberryPi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raspberryPi/src/communication_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/src/communication_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raspberryPi/src/main_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/src/main_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/audio_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/audio_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/communication_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/communication_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/text_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/text_analyzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +267,7 @@
       <workItem from="1761026199536" duration="3661000" />
       <workItem from="1761039130985" duration="1350000" />
       <workItem from="1761042797609" duration="1277000" />
-      <workItem from="1761144640778" duration="883000" />
+      <workItem from="1761144640778" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="audio">
       <option name="closed" value="true" />
@@ -465,11 +327,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/大模型中文语音识别.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/server/src/communication_manager.py</url>
           <option name="timeStamp" value="2" />
