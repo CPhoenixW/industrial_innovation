@@ -4,7 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aca4710-d15d-4b12-93bb-58a2bed17673" name="更改" comment="server code" />
+    <list default="true" id="4aca4710-d15d-4b12-93bb-58a2bed17673" name="更改" comment="server code">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arm_pose1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arm_pose2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/am/final.mdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/conf/mfcc.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/conf/model.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/Gr.fst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/HCLr.fst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/disambig_tid.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/graph/phones/word_boundary.int" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.dubm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.ie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/final.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/global_cmvn.stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/online_cmvn.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raspberryPi/vosk-model-small-cn-0.22/ivector/splice.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/audio_20250924_161544.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/image1_20250924_161544.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161544/image2_20250924_161544.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/audio_20250924_161711.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/image1_20250924_161711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161711/image2_20250924_161711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/audio_20250924_161757.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/image1_20250924_161757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_161757/image2_20250924_161757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/audio_20250924_162038.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/image1_20250924_162038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162038/image2_20250924_162038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/audio_20250924_162109.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/image1_20250924_162109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162109/image2_20250924_162109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/audio_20250924_162212.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/image1_20250924_162212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162212/image2_20250924_162212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/audio_20250924_162230.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/image1_20250924_162230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162230/image2_20250924_162230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/audio_20250924_162300.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/image1_20250924_162300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162300/image2_20250924_162300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/audio_20250924_162642.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/image1_20250924_162642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162642/image2_20250924_162642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/audio_20250924_162727.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/image1_20250924_162727.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_162727/image2_20250924_162727.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/audio_20250924_163236.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/audio_20250924_163236.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/image1_20250924_163236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163236/image2_20250924_163236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/audio_20250924_163453.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/audio_20250924_163453.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/image1_20250924_163453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/image2_20250924_163453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163453/recognition_20250924_163453.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/audio_20250924_163535.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/audio_20250924_163535.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/image1_20250924_163535.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/image2_20250924_163535.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20250924_163535/recognition_20250924_163535.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/audio_20251003_074547.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/audio_20251003_074547.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/image1_20251003_074547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/image2_20251003_074547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251003_074547/recognition_20251003_074547.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/audio_20251006_214522.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/audio_20251006_214522.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/image1_20251006_214522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214522/image2_20251006_214522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/audio_20251006_214736.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/audio_20251006_214736.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/image1_20251006_214736.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/image2_20251006_214736.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_214736/recognition_20251006_214736.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/audio_20251006_215031.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/audio_20251006_215031.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/image1_20251006_215031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/image2_20251006_215031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_215031/recognition_20251006_215031.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/audio_20251006_221411.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/audio_20251006_221411.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/image1_20251006_221411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/image2_20251006_221411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_221411/recognition_20251006_221411.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/audio_20251006_225142.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/audio_20251006_225142.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/image1_20251006_225142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/image2_20251006_225142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_225142/recognition_20251006_225142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/audio_20251006_230514.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/audio_20251006_230514.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/image1_20251006_230514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/image2_20251006_230514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_230514/recognition_20251006_230514.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/audio_20251006_231344.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/audio_20251006_231344.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/image1_20251006_231344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/image2_20251006_231344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231344/recognition_20251006_231344.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/audio_20251006_231539.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/audio_20251006_231539.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/image1_20251006_231539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/image2_20251006_231539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231539/recognition_20251006_231539.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/audio_20251006_231707.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/audio_20251006_231707.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/image1_20251006_231707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/image2_20251006_231707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_231707/recognition_20251006_231707.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/audio_20251006_232204.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/audio_20251006_232204.wav_processed.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/image1_20251006_232204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/image2_20251006_232204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/uploads/20251006_232204/recognition_20251006_232204.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sft_0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xunfeiAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/大模型中文语音识别.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/姿态解算演示程序.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工作流.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/录音.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_vosk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/communication_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/src/communication_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberryPi/src/main_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberryPi/src/main_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/audio_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/audio_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/communication_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/communication_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/text_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/text_analyzer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +185,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:CPhoenixW/industrial_innovation.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/CPhoenixW/industrial_innovation.git&quot;,
     &quot;accountId&quot;: &quot;62481216-33f6-47ce-9a22-1dad0eb666a7&quot;
   }
 }</component>
@@ -57,36 +197,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.H.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.arm_pose1.executor": "Run",
-    "Python.audio2.executor": "Run",
-    "Python.audio3.executor": "Run",
-    "Python.audio_vosk.executor": "Run",
-    "Python.camera.executor": "Run",
-    "Python.camera_to_real.executor": "Run",
-    "Python.camera_to_robot.executor": "Run",
-    "Python.change.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.pixel_to_camera.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.undistort_image.executor": "Run",
-    "Python.xunfeiAPI.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Pi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.H.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arm_pose1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audio2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audio_processor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audio_vosk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera_detect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera_to_real.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera_to_robot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lableImage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pixel_to_camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.undistort_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xunfeiAPI.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Pi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="H" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gc" />
@@ -111,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arm_pose1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="audio_processor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gc" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,12 +264,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arm_pose1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/src/audio_processor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="camera_to_real" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="camera_detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gc" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,35 +287,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/camera_to_real.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="camera_to_robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gc" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/camera_to_robot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/camera_detect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,13 +324,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../yolov11" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../yolov11/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.arm_pose1" />
+        <item itemvalue="Python.audio_processor" />
+        <item itemvalue="Python.camera_detect" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.H" />
-        <item itemvalue="Python.camera_to_robot" />
-        <item itemvalue="Python.camera_to_real" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +389,23 @@
       <workItem from="1759455372414" duration="144000" />
       <workItem from="1759455607723" duration="10902000" />
       <workItem from="1759738593198" duration="4499000" />
-      <workItem from="1759758198327" duration="8301000" />
+      <workItem from="1759758198327" duration="7453000" />
+      <workItem from="1759769712147" duration="1798000" />
+      <workItem from="1759893431692" duration="7733000" />
+      <workItem from="1760016022667" duration="3362000" />
+      <workItem from="1760020540617" duration="1043000" />
+      <workItem from="1760075746792" duration="2104000" />
+      <workItem from="1760078663154" duration="338000" />
+      <workItem from="1760101660412" duration="853000" />
+      <workItem from="1760103565791" duration="4821000" />
+      <workItem from="1760166000880" duration="71000" />
+      <workItem from="1760263328263" duration="4724000" />
+      <workItem from="1760802079835" duration="339000" />
+      <workItem from="1760886314803" duration="2000" />
+      <workItem from="1761026199536" duration="3661000" />
+      <workItem from="1761039130985" duration="1350000" />
+      <workItem from="1761042797609" duration="1277000" />
+      <workItem from="1761144640778" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="audio">
       <option name="closed" value="true" />
@@ -271,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759766289919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="audio message">
+      <option name="closed" value="true" />
+      <created>1759771530908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759771530908</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,38 +459,54 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="audio" />
     <MESSAGE value="server code" />
-    <option name="LAST_COMMIT_MESSAGE" value="server code" />
+    <MESSAGE value="audio message" />
+    <option name="LAST_COMMIT_MESSAGE" value="audio message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/raspberryPi/src/sensor_controller.py</url>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/大模型中文语音识别.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/src/communication_manager.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/setup_py$change.coverage" NAME="change 覆盖结果" MODIFIED="1758505551722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenet" />
-    <SUITE FILE_PATH="coverage/main_py$arm_pose1.coverage" NAME="arm_pose1 覆盖结果" MODIFIED="1759761860641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xunfeiAPI_py$arm_pose1.coverage" NAME="arm_pose1 覆盖结果" MODIFIED="1758549463401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/camera_py$camera_to_robot.coverage" NAME="camera_to_robot 覆盖结果" MODIFIED="1759472211404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/lableImage_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1759935565037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/audio_vosk_py$audio3.coverage" NAME="audio3 覆盖结果" MODIFIED="1758464401271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/camera_py$pixel_to_camera.coverage" NAME="pixel_to_camera 覆盖结果" MODIFIED="1759471827991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
-    <SUITE FILE_PATH="coverage/gc$audio_vosk.coverage" NAME="audio_vosk 覆盖结果" MODIFIED="1758457617021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/camera_detect_py$camera_detect.coverage" NAME="camera_detect 覆盖结果" MODIFIED="1761039533431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/camera_py$camera.coverage" NAME="camera 覆盖结果" MODIFIED="1759456779348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
-    <SUITE FILE_PATH="coverage/audio_vosk_py$audio_vosk.coverage" NAME="audio_vosk 覆盖结果" MODIFIED="1758465188638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/camera_py$undistort_image.coverage" NAME="undistort_image 覆盖结果" MODIFIED="1759471557904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/app_py$train.coverage" NAME="train 覆盖结果" MODIFIED="1761038696996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolov11" />
     <SUITE FILE_PATH="coverage/app_py$camera.coverage" NAME="camera 覆盖结果" MODIFIED="1759455315578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/setup_py$audio_vosk.coverage" NAME="audio_vosk 覆盖结果" MODIFIED="1758503104152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/audio_vosk_py$audio2.coverage" NAME="audio2 覆盖结果" MODIFIED="1758464480256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1759761865973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/main_py$audio_processor.coverage" NAME="audio_processor 覆盖结果" MODIFIED="1761043071283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/src" />
     <SUITE FILE_PATH="coverage/test_py$test.coverage" NAME="test 覆盖结果" MODIFIED="1758545217535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenet" />
+    <SUITE FILE_PATH="coverage/xunfeiAPI_py$xunfeiAPI.coverage" NAME="xunfeiAPI 覆盖结果" MODIFIED="1758551603336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/H_py$H.coverage" NAME="H 覆盖结果" MODIFIED="1760078750905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/setup_py$change.coverage" NAME="change 覆盖结果" MODIFIED="1758505551722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenet" />
+    <SUITE FILE_PATH="coverage/main_py$arm_pose1.coverage" NAME="arm_pose1 覆盖结果" MODIFIED="1759761860641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lableImage_py$lableImage.coverage" NAME="lableImage 覆盖结果" MODIFIED="1759893468657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/camera_detect_py$train.coverage" NAME="train 覆盖结果" MODIFIED="1761039256287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../yolov11" />
+    <SUITE FILE_PATH="coverage/xunfeiAPI_py$arm_pose1.coverage" NAME="arm_pose1 覆盖结果" MODIFIED="1758549463401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/camera_py$camera_to_robot.coverage" NAME="camera_to_robot 覆盖结果" MODIFIED="1759472211404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/app_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1761026481307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/camera_py$pixel_to_camera.coverage" NAME="pixel_to_camera 覆盖结果" MODIFIED="1759471827991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/gc$audio_vosk.coverage" NAME="audio_vosk 覆盖结果" MODIFIED="1758457617021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/audio_vosk_py$audio_vosk.coverage" NAME="audio_vosk 覆盖结果" MODIFIED="1758465188638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/camera_py$undistort_image.coverage" NAME="undistort_image 覆盖结果" MODIFIED="1759471557904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/main_py$app.coverage" NAME="app 覆盖结果" MODIFIED="1760104381993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server/src" />
+    <SUITE FILE_PATH="coverage/audio_vosk_py$audio2.coverage" NAME="audio2 覆盖结果" MODIFIED="1758464480256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1761043085980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/test_py$arm_pose1.coverage" NAME="arm_pose1 覆盖结果" MODIFIED="1758546189567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/camera_py$camera_to_real.coverage" NAME="camera_to_real 覆盖结果" MODIFIED="1759471908773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/camera_py$H.coverage" NAME="H 覆盖结果" MODIFIED="1759473336148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
-    <SUITE FILE_PATH="coverage/xunfeiAPI_py$xunfeiAPI.coverage" NAME="xunfeiAPI 覆盖结果" MODIFIED="1758551603336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$H.coverage" NAME="H 覆盖结果" MODIFIED="1760106328070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/app_py$app.coverage" NAME="app 覆盖结果" MODIFIED="1759445270026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/test_py$change.coverage" NAME="change 覆盖结果" MODIFIED="1758540930551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenet" />
     <SUITE FILE_PATH="coverage/setup_py$test.coverage" NAME="test 覆盖结果" MODIFIED="1758503235891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wenet" />

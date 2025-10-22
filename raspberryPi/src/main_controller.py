@@ -4,6 +4,7 @@ import logging
 import queue
 from datetime import datetime
 from enum import Enum
+import pygame
 
 logger = logging.getLogger("RaspberryPi")
 
@@ -101,11 +102,12 @@ class MainController:
                     # 如果收到服务器响应，处理响应并转为等待STM32状态或回到IDLE状态
                     if not self.event_queue.empty():
                         event, data = self.event_queue.get(block=False)
-                        if event == "server_response":
-                            self.handle_server_response(data)
+                        if event == "upload_response":
+                            self.handle_server_upload_response(data)
                         elif event == "coordinates":
-                            # 处理从服务器接收到的坐标数据
                             self.handle_coordinates_from_server(data)
+                        elif event == "server_message":
+                            self.handle_server_message(data)
                         self.event_queue.task_done()
                     
                     # 检查是否超时
@@ -182,13 +184,13 @@ class MainController:
         logger.info("开始拍照录音...")
         # 播放提示音
         pygame.mixer.init()
-        pygame.mixer.music.load("/audio/answer.mp3")
+        pygame.mixer.music.load("./audio/answer.mp3")
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             time.sleep(0.1)
 
         img1_path, img2_path = self.sensor.capture_images()
-        
+
         audio_path = self.sensor.record_audio()
         
         if img1_path and img2_path and audio_path:
@@ -197,7 +199,7 @@ class MainController:
             
             if response:
                 # 将服务器响应放入事件队列
-                self.event_queue.put(("server_response", response))
+                self.event_queue.put(("upload_response", response))
                 return True
             else:
                 logger.error("服务器未返回有效响应")
@@ -210,11 +212,18 @@ class MainController:
             self.state = State.IDLE
             return False
     
-    def handle_server_response(self, response):
-        """处理服务器响应"""
+    def handle_server_upload_response(self, response):
+        """处理服务器上传响应"""
         logger.info(f"处理服务器响应: {response}")
-        
-        # 检查响应中是否包含坐标数据
+
+        if 'success' in response and response['success'] is True:
+            logger.info("文件上传成功，等待服务器处理...")
+            self.wait_for_coordinates_timeout = time.time() + 30  # 30秒超时
+        else:
+            logger.warning("文件上传失败")
+            self.state = State.IDLE
+
+        '''# 检查响应中是否包含坐标数据
         if 'coordinates' in response:
             coordinates = response['coordinates']
             self.handle_coordinates_from_server(coordinates)
@@ -223,12 +232,10 @@ class MainController:
             # 此时应保持在WAITING_SERVER状态，等待后续的坐标数据
             if 'success' in response and response['success'] is True:
                 logger.info("文件上传成功，等待服务器处理语音识别并发送坐标")
-                # 保持当前状态，等待坐标数据
-                # 设置一个超时时间，避免无限等待
                 self.wait_for_coordinates_timeout = time.time() + 30  # 30秒超时
             else:
                 logger.warning("服务器响应中没有坐标数据")
-                self.state = State.IDLE
+                self.state = State.IDLE'''
                 
     def handle_coordinates_from_server(self, coordinates):
         """处理从服务器接收到的坐标数据"""
@@ -240,23 +247,26 @@ class MainController:
         
         if isinstance(coordinates, list):
             # 处理坐标列表
+            pygame.mixer.init()
+            pygame.mixer.music.load("./audio/order.mp3")
+            pygame.mixer.music.play()
+            while pygame.mixer.music.get_busy():
+                time.sleep(0.1)
             if len(coordinates) == 1:
-                # 只有一组坐标，直接发送
-                logger.info("接收到1组坐标，直接发送")
+                logger.info("接收到1组指令，已发送")
                 self.send_coordinate_to_stm32(coordinates[0])
                 self.state = State.WAITING_STM32
             elif len(coordinates) == 2:
-                # 有两组坐标，先发送第一组，将第二组放入队列
-                logger.info("接收到2组坐标，先发送第一组")
+                logger.info("接收到2组指令，已发送第1组指令")
                 self.send_coordinate_to_stm32(coordinates[0])
                 self.coordinates_queue.put(coordinates[1])
-                logger.info("第二组坐标已加入队列")
+                logger.info("第2组指令已加入队列")
                 self.state = State.WAITING_STM32
             else:
-                logger.warning(f"接收到意外数量的坐标组: {len(coordinates)}")
+                logger.warning(f"接收到意外数量的指令: {len(coordinates)}")
                 self.state = State.IDLE
         else:
-            logger.error("坐标数据格式错误")
+            logger.error("指令格式错误")
             self.state = State.IDLE
     
     def send_coordinate_to_stm32(self, coordinate):
@@ -266,7 +276,7 @@ class MainController:
             # 假设坐标格式为 {x: float, y: float, z: float}
             if 'x' in coordinate and 'y' in coordinate and 'z' in coordinate:
                 x, y, z = coordinate['x'], coordinate['y'], coordinate['z']
-                command = f"COORD:{x},{y},{z}"
+                command = f"{x} {y} {z}\n\r"
                 self.comm.send_to_stm32(command.encode('utf-8'))
                 logger.info(f"已向STM32发送坐标: {command}")
                 return True
@@ -286,7 +296,19 @@ class MainController:
             # 任务完成后的处理逻辑在主循环中处理
         elif "ERROR" in data:
             logger.error(f"STM32报告错误: {data}")
+            self.state = State.IDLE
             # 错误处理逻辑在主循环中处理
+    
+    def handle_server_message(self, message):
+        """处理从服务器接收到的消息"""
+        logger.info(f"处理服务器消息: {message}")
+
+        if message.startswith("ERROR:"):
+            logger.error(f"服务器报告错误: {message}")
+            self.state = State.IDLE
+        else:
+            # 处理其他类型的消息
+            logger.info(f"收到服务器消息: {message}")
     
     def emergency_restart(self):
         """紧急重启功能"""

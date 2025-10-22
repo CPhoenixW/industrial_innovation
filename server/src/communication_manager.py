@@ -32,7 +32,7 @@ class CommunicationManager:
     def send_coordinates_to_raspberry_pi(self, coordinates):
         """向树莓派发送坐标数据"""
         try:
-            url = f"http://{self.raspberry_pi_ip}:{8080}/coordinates"
+            url = f"http://{self.raspberry_pi_ip}:{self.raspberry_pi_port}/coordinates"
             data = {"coordinates": coordinates}
 
             response = requests.post(url, json=data, timeout=5)

@@ -19,11 +19,11 @@ class TextAnalyzer:
     def extract_info(self, text):
         """
         从文本中提取数词和工件类型
-        返回格式: [(数量, 工件类型), ...]
+        返回格式: [(数量, 工件类型), ...] 或 错误信息字符串
         """
         if not text:
             logger.warning("文本为空，无法提取信息")
-            return []
+            return "ERROR: 文本为空，无法提取信息"
 
         logger.info(f"开始分析文本: {text}")
 
@@ -33,9 +33,11 @@ class TextAnalyzer:
             if word in text:
                 numbers.append(self.number_mapping[word])
 
-        # 如果没有找到数词，默认为1
+        # 如果没有找到数词，返回错误信息
         if not numbers:
-            numbers = [1]
+            error_msg = "ERROR: 未找到有效的数词"
+            logger.warning(error_msg)
+            return error_msg
 
         # 提取工件类型
         parts = []
@@ -47,31 +49,24 @@ class TextAnalyzer:
                 else:
                     parts.append(part)
 
-        # 如果没有找到工件类型，默认为工件A
+        # 如果没有找到工件类型，返回错误信息
         if not parts:
-            parts = ["工件A"]
+            error_msg = "ERROR: 未找到有效的工件类型"
+            logger.warning(error_msg)
+            return error_msg
 
         # 组合结果
         results = []
 
-        # 如果只有一个数词和一个工件类型，直接组合
-        if len(numbers) == 1 and len(parts) == 1:
+        # 如果只有一个数词和工件类型
+        if len(numbers) == 1:
             results.append((numbers[0], parts[0]))
-
-        # 如果有两个数词和两个工件类型，按顺序组合
-        elif len(numbers) == 2 and len(parts) == 2:
-            results.append((numbers[0], parts[0]))
-            results.append((numbers[1], parts[1]))
 
         # 如果有两个数词但只有一个工件类型，使用相同的工件类型
-        elif len(numbers) == 2 and len(parts) == 1:
+        elif len(numbers) == 2:
             results.append((numbers[0], parts[0]))
             results.append((numbers[1], parts[0]))
 
-        # 如果有一个数词但有两个工件类型，假设每个工件类型数量为1
-        elif len(numbers) == 1 and len(parts) == 2:
-            results.append((1, parts[0]))
-            results.append((1, parts[1]))
 
         logger.info(f"提取结果: {results}")
         return results

@@ -11,6 +11,7 @@ from src.audio_processor import AudioProcessor
 from src.text_analyzer import TextAnalyzer
 from src.communication_manager import CommunicationManager
 from src.server_controller import ServerController
+from src.homography_processor import HomographyProcessor
 
 # 创建Flask应用
 app = Flask(__name__)
@@ -31,8 +32,8 @@ CURRENT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UPLOAD_FOLDER = os.path.join(CURRENT_DIR, 'uploads')
 
 # 树莓派配置
-RASPBERRY_PI_IP = "192.168.43.181"
-RASPBERRY_PI_PORT = 5000
+RASPBERRY_PI_IP = "192.168.43.132"
+RASPBERRY_PI_PORT = 8080
 
 # 初始化组件
 file_manager = FileManager(UPLOAD_FOLDER)

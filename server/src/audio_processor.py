@@ -36,7 +36,8 @@ class Ws_Param(object):
             "domain": "iat",
             "language": "zh_cn",
             "accent": "mandarin",
-            "dwa": "wpgs",
+            # 移除wpgs参数，禁用流式识别的中间结果返回
+            # "dwa": "wpgs",
             "result": {
                 "encoding": "utf8",
                 "compress": "raw",
@@ -158,7 +159,8 @@ class AudioProcessor:
                                     "language": "zh_cn",
                                     "domain": "iat",
                                     "accent": "mandarin",
-                                    "dwa": "wpgs"
+                                    # 移除wpgs参数，禁用流式识别的中间结果返回
+                                    # "dwa": "wpgs"
                                 },
                                 "data": {
                                     "status": 0,

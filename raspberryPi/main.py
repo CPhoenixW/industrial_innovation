@@ -44,6 +44,12 @@ def main():
         # 设置接收坐标数据的端点
         comm.setup_coordinates_endpoint(app, controller)
         
+        # 设置接收消息的端点
+        comm.setup_message_endpoint(app, controller)
+
+        # 设置发送节点
+        comm.connect_stm32()
+
         # 在新线程中启动Flask服务器
         def run_flask_app():
             app.run(host='0.0.0.0', port=flask_port)

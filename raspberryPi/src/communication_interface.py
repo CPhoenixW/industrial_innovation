@@ -9,7 +9,7 @@ logger = logging.getLogger("RaspberryPi")
 class CommunicationInterface:
     """通信接口类，负责与STM32和服务器的通信"""
     
-    def __init__(self, server_url, serial_port='/dev/ttyAMA10', baud_rate=115200):
+    def __init__(self, server_url, serial_port='/dev/ttyAMA2', baud_rate=9600):
         self.server_url = server_url
         self.serial_port = serial_port
         self.baud_rate = baud_rate
@@ -119,4 +119,22 @@ class CommunicationInterface:
                     return jsonify({"status": "error", "message": "没有坐标信息"}), 400
             except Exception as e:
                 logger.error(f"处理坐标数据时出错: {e}")
+                return jsonify({"status": "error", "message": str(e)}), 500
+                
+    def setup_message_endpoint(self, app, main_controller):
+        """设置接收消息的端点"""
+        @app.route('/message', methods=['POST'])
+        def receive_message():
+            try:
+                data = request.json
+                if 'message' in data:
+                    logger.info(f"接收到服务器消息: {data['message']}")
+                    # 将消息放入事件队列
+                    main_controller.event_queue.put(("server_message", data['message']))
+                    return jsonify({"status": "success"})
+                else:
+                    logger.error("接收到的数据中没有消息内容")
+                    return jsonify({"status": "error", "message": "没有消息内容"}), 400
+            except Exception as e:
+                logger.error(f"处理服务器消息时出错: {e}")
                 return jsonify({"status": "error", "message": str(e)}), 500
