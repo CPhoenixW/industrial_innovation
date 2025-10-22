@@ -6,7 +6,8 @@ server/src/server.log
 # 上传文件夹
 server/uploads/
 server/others/
-server/images/
+server/image/
+server/weights/
 others/
 dataset/
 
