@@ -44,27 +44,6 @@
   - `data_processor.py`: 数据处理
   - `main_controller.py`: 主控制器
 
-## 环境要求
-
-### 服务器端
-```python
-# requirements.txt
-opencv-python
-numpy
-flask
-torch
-ultralytics  # YOLO目标检测
-```
-
-### 树莓派端
-```python
-# raspberryPi/requirements.txt
-vosk  # 语音识别
-pyaudio
-numpy
-requests
-```
-
 ## 快速开始
 
 1. 服务器端设置
